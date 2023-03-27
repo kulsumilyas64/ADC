@@ -33,3 +33,4 @@ sprintf(msg, "%%h0%d\r\n", raw);                                            //%%
 HAL_UART_Transmit(&huart1, (uint8_t *)msg, strlen(msg), HAL_MAX_DELAY);    // Transmission through UART 
 HAL_Delay(500)                                                            // Prints after every half second
 
+}
