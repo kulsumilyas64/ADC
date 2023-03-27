@@ -1,7 +1,7 @@
 ## ADC- Code for Potentiometer
 
 ```
-#include"mains.h"
+#include"main.h"
 #include<string.h>         // For string libraries
 #include<stdio.h>         // For I/O 
 
